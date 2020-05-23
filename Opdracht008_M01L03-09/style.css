@@ -1,0 +1,235 @@
+/*body*/
+/*header*/
+/*container*/
+
+body {
+  background: rgb(255, 255, 255);
+
+  margin-left: 500px;
+  display: block;
+  margin: 1em;
+  width: 640px;
+  padding: 0em;
+}
+
+/*header*/
+
+header {
+  border: black 1px solid;
+  margin: 0em;
+  padding: 0em;
+}
+
+.header-bar {
+  background-color: rgb(197, 192, 241);
+  width: 60%;
+}
+
+.actie-bar {
+  margin: 0px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border: solid rgb(0, 0, 0) 1px;
+}
+
+.nav-bar {
+  height: 100px;
+  width: 60%;
+  position: relative;
+}
+
+.nav-bar-right {
+  border: solid black 1px;
+  position: absolute;
+  float: right;
+
+  margin-left: 300px;
+  width: 20%;
+  padding: 5px;
+  padding-right: 55px;
+}
+.nav-bar-logo {
+  border: solid black 1px;
+
+  float: left;
+  padding: 5px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 20px;
+  margin: 0px 15px 0px 15px;
+}
+.nav-bar-left {
+  border: solid black 1px;
+  position: absolute;
+
+  margin-left: 35px;
+  width: 20%;
+  padding: 5px;
+  padding-right: 55px;
+}
+
+/*main part 01*/
+
+.article-container {
+  border: 1px black solid;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.titel-box {
+  border: 1px black solid;
+}
+.explanation-box {
+  border: 1px black solid;
+}
+
+/*main part 02*/
+.choice-container {
+  border: rgb(0, 0, 0) 1px solid;
+  margin: 0px;
+  position: relative;
+}
+.box01 {
+  border: rgb(0, 0, 0) 1px solid;
+
+  margin-bottom: 55px;
+
+  width: 45%;
+  height: 400px;
+  float: left;
+}
+
+.box02 {
+  border: rgb(0, 0, 0) 1px solid;
+
+  margin-bottom: 55px;
+
+  width: 45%;
+  height: 300px;
+  float: right;
+  height: 400px;
+}
+
+.box03 {
+  border: rgb(0, 0, 0) 1px solid;
+
+  margin-bottom: 55px;
+  width: 45%;
+  height: 300px;
+  float: left;
+  height: 400px;
+}
+
+.box04 {
+  border: rgb(0, 0, 0) 1px solid;
+
+  margin-bottom: 55px;
+  width: 45%;
+  height: 300px;
+  float: right;
+  height: 400px;
+}
+
+.box-title {
+  border: 1px solid rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+}
+
+.box-explanation {
+  border: 1px solid black;
+  background: rgb(197, 192, 241);
+  position: relative;
+  margin: 0;
+  padding: 0;
+  top: 150px;
+  height: 100px;
+}
+
+.option-box {
+  border: 1px solid black;
+  background: rgb(255, 255, 255);
+  position: relative;
+  top: 150px;
+  height: 100px;
+  margin-top: 0em;
+  padding-top: 0em;
+}
+
+/* main content*/
+/* oplossing zoeken voor images bij scale*/
+
+figure {
+  padding: auto;
+  margin: auto;
+}
+
+/*footer*/
+.footer-container {
+  background-color: rgb(197, 192, 241);
+  border: 1px solid black;
+  margin-top: 800px;
+  margin-bottom: 10px;
+  position: absolute;
+  width: 90%;
+  top: 43em;
+  text-align: center;
+}
+
+.bottom-nav li {
+  display: inline;
+  background-color: rgb(197, 192, 241);
+  border: rgb(0, 0, 0) 1px solid;
+  margin: 15px;
+  padding: 10px;
+}
+
+.bottom-bar {
+  border: rgb(0, 0, 0) 1px solid;
+  background-color: rgb(197, 192, 241);
+}
+
+.bottom-nav {
+  border: rgb(0, 0, 0) 1px solid;
+  background-color: rgb(255, 255, 255);
+}
+
+.cookies {
+  background-color: rgb(245, 189, 4);
+}
+
+.privacy {
+}
+
+@media (min-width: 1064px) {
+  body {
+    background: rgb(245, 189, 4);
+    width: 1064px;
+  }
+
+  main,
+  header,
+  footer,
+  .bottom-bar {
+    font-size: 20 px;
+    line-height: 1.5em;
+    font-family: "Courier New", Courier, monospace;
+  }
+  h2 {
+    color: red;
+    text-align: center;
+    font-weight: 900;
+  }
+  .box-title,
+  .bottom-bar,
+  .header-bar {
+    background-color: rgb(245, 141, 4);
+  }
+  .box-explanation {
+    background-color: rgb(235, 222, 197);
+    overflow: scroll;
+  }
+}
+.header-bar {
+  width: 100%;
+}
