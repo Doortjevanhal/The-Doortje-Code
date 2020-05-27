@@ -1,0 +1,308 @@
+/*body*/
+/*header*/
+/*container*/
+
+body {
+  background: rgb(255, 255, 255);
+  position: relative;
+  margin-left: 500px;
+  display: block;
+  margin: 1em;
+  width: 640px;
+  padding: 0em;
+}
+
+/*header*/
+
+header {
+  border: 1px solid black;
+  margin: 0em;
+  padding: 0em;
+}
+
+.header-bar {
+  background-color: rgb(255, 255, 255);
+  width: 640px;
+}
+
+.actie-bar {
+  margin: 0px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border: 1px solid black;
+}
+
+.nav-bar {
+  height: 100px;
+  width: 60%;
+  position: relative;
+}
+
+.nav-bar-right {
+  float: right;
+  border: solid black 1px;
+  position: absolute;
+
+  width: 20%;
+  margin-left: 500px;
+  padding: 5px;
+  padding-right: 55px;
+  height: 90px;
+}
+
+.nav-bar-left {
+  float: left;
+  border: solid black 1px;
+
+  position: absolute;
+  height: 90px;
+  width: 20%;
+  padding: 5px;
+  padding-right: 75px;
+  margin-left: 0px;
+}
+.nav-bar-logo {
+  float: left;
+  border: solid black 1px;
+  position: absolute;
+  width: 20%;
+  height: 75px;
+  margin: 0px 15px 0px 250px;
+  padding: 5px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 20px;
+}
+
+/*main part 01*/
+
+.article-container {
+  border: 1px rgb(0, 0, 0) solid;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title-box {
+  border: 1px black solid;
+}
+.explanation-box {
+  border: 1px black solid;
+  padding: 10px;
+}
+
+/*main part 02*/
+.choice-container {
+  border: rgba(0, 0, 0, 0) 1px solid;
+  margin: 0px;
+  position: relative;
+  height: 1500px;
+  width: 99%;
+}
+.box01 {
+  border: rgb(0, 0, 0) 1px solid;
+
+  margin-bottom: 55px;
+
+  width: 47%;
+  height: 620px;
+  float: left;
+  background-color: rgb(255, 255, 255);
+}
+
+.box02 {
+  border: rgb(0, 0, 0) 1px solid;
+
+  margin-bottom: 55px;
+  width: 47%;
+
+  float: right;
+  height: 620px;
+  background-color: rgb(255, 255, 255);
+}
+
+.box03 {
+  border: rgb(0, 0, 0) 1px solid;
+
+  margin-bottom: 55px;
+  width: 47%;
+
+  float: left;
+  height: 620px;
+}
+
+.box04 {
+  border: rgb(0, 0, 0) 1px solid;
+
+  margin-bottom: 55px;
+  width: 47%;
+
+  float: right;
+  height: 620px;
+}
+
+.box-title {
+  border: 1px solid rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.box-explanation {
+  border: 1px solid black;
+  background: rgb(255, 255, 255);
+  position: relative;
+  margin-bottom: 0px;
+  padding: 0px 0px 15px 10px;
+  top: 185px;
+  height: 100px;
+}
+
+.option-box {
+  border: 1px solid black;
+  background: rgb(255, 255, 255);
+  position: relative;
+  top: 190px;
+  height: 220px;
+  margin: 0px 0px 10px 0px;
+  padding: 5px 0px 0px 15px;
+}
+
+/* main content*/
+/* oplossing zoeken voor images bij scale*/
+
+.block-image {
+  border: rgba(0, 0, 0, 0) solid 1px;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  height: 150px;
+  width: 44%;
+  right: 20px;
+}
+
+.block-image-1en3 {
+  border: rgba(2, 2, 2, 0) 1px solid;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  height: 150px;
+  width: 44%;
+  left: 0.1px;
+}
+
+/*footer*/
+
+footer {
+  background-color: rgb(255, 255, 255);
+  width: 60%;
+}
+.footer-container {
+  margin-top: 1200px;
+
+  position: absolute;
+  padding: 0px;
+  top: 43em;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  width: 640px;
+}
+
+/*footer content*/
+.bottom-nav li {
+  display: inline;
+  background-color: rgb(255, 255, 255);
+  border: rgb(0, 0, 0) 1px solid;
+  margin: 15px;
+  padding: 10px;
+}
+
+.bottom-bar {
+  border: rgb(0, 0, 0) 1px solid;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+  width: 640px;
+}
+
+.bottom-nav {
+  border: rgb(0, 0, 0) 1px solid;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+}
+
+.cookies {
+}
+
+.privacy {
+}
+
+/*text*/
+
+h4
+
+ {
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  padding:20px;
+  line-height: 1.5em;
+
+background-color: rgb(255, 255, 255);
+  margin: 0px;
+  border: rgba(0, 0, 0, 0.274) 1px solid;
+ 
+
+}
+
+@media (min-width: 1064px) {
+  body {
+    background: rgb(245, 189, 4);
+    width: 1064px;
+  }
+
+  main,
+  header,
+  footer,
+  .bottom-bar {
+    font-size: 20 px;
+    line-height: 1.5em;
+    font-family: "Courier New", Courier, monospace;
+  }
+  h2 {
+    color: red;
+    text-align: center;
+    font-weight: 900;
+  }
+  .box-title,
+  .bottom-bar,
+  .header-bar {
+    background-color: rgb(245, 141, 4);
+  }
+  .box-explanation {
+    background-color: rgb(235, 222, 197);
+    overflow: scroll;
+  }
+  .header-bar {
+    width: 100%;
+  }
+  .bottom-bar,
+  .footer-container,
+  .choice-container {
+    width: 100%;
+  }
+  .option-box,
+  .box01,
+  .box02,
+  .box03,
+  .box04 {
+    height: 40%;
+  }
+ 
+  .box01,
+  .box02,
+  .box03,
+  .box04 {
+    height: 45%;
+  }
+}
+
+}
