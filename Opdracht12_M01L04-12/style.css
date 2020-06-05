@@ -1,0 +1,79 @@
+body {
+  background: whitesmoke;
+}
+
+.blogpost {
+  border: 1px solid rgba(0, 0, 0, 0.74);
+  background-color: rgb(218, 227, 231);
+  width: fit-content;
+  align-items: baseline; /* flex*/
+  align-content: space-around;
+}
+.container {
+  direction: column;
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: wrap; /* flex*/
+  justify-content: space-evenly; /* flex*/
+  align-items: stretch; /* flex*/
+  align-content: space-around; /* flex*/
+
+  width: 80%;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  border: 1px solid rgba(0, 0, 0, 0.486);
+  padding: 2px;
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+  font-size: 35px;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 70px;
+  font-style: bold;
+  color: rgb(36, 0, 0);
+  font-weight: 900;
+  font-stretch: semi-expanded;
+  width: 100%;
+}
+
+p {
+  font-size: 20px;
+  padding: 5px;
+  width: 40%;
+  font-size: 25px;
+}
+.header-bar,
+footer {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(73, 192, 207);
+  padding-left: 100px;
+  width: 80%;
+}
+
+.text-box01 {
+  display: flex;
+  flex-wrap: wrap; /* flex*/
+  width: fit-content;
+  align-content: flex-start; /* flex*/
+}
+
+.text-box02,
+.text-box03,
+.text-box04,
+.text-box05 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: stretch;
+  align-content: space-around;
+}
+.textbox01 p {
+  font-size: 20px;
+  padding: 5px;
+  font-size: 35px;
+}
